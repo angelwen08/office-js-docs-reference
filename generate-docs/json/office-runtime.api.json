@@ -71,7 +71,12 @@
                 }
               },
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Erases all AsyncStorage. Returns a Promise."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -98,7 +103,12 @@
                 }
               },
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Returns a Promise with all keys."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -132,7 +142,12 @@
                 }
               },
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Retrieves an object based on a key and invokes a callback when finished. Returns a Promise."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -166,7 +181,21 @@
                 }
               },
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Fetches a batch of keys, specified in the "
+                },
+                {
+                  "kind": "code",
+                  "text": "keys",
+                  "highlighter": "plain"
+                },
+                {
+                  "kind": "text",
+                  "text": " array. When a key doesn't exist, returns null."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -200,7 +229,21 @@
                 }
               },
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Deletes a batch of keys, specified in the "
+                },
+                {
+                  "kind": "code",
+                  "text": "keys",
+                  "highlighter": "plain"
+                },
+                {
+                  "kind": "text",
+                  "text": " array."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -234,7 +277,12 @@
                 }
               },
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Stores multiple key-value pairs in one batch. Returns a Promise. When a key doesn't exist, returns null."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -268,7 +316,12 @@
                 }
               },
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Removes an item for specified key and invokes a callback when finished. Returns a Promise."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -309,7 +362,12 @@
                 }
               },
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Assigns the value for a key-value pair and invokes a callback when finished. Returns a Promise."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -324,7 +382,12 @@
           "implements": "",
           "typeParameters": [],
           "deprecatedMessage": [],
-          "summary": [],
+          "summary": [
+            {
+              "kind": "text",
+              "text": "Object representing the dialog box."
+            }
+          ],
           "remarks": [],
           "isBeta": true,
           "isSealed": false,
@@ -341,7 +404,12 @@
               },
               "parameters": {},
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Method that closes a dialog box."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -412,7 +480,12 @@
               "isStatic": false,
               "type": "boolean",
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Determines whether the dialog box displays as a popup (false) or within an IFrame (true). This setting is only applicable to custom functions running on Excel Online."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -428,7 +501,12 @@
               "isStatic": false,
               "type": "string",
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Defines the height of the dialog box as a percentage of the current display."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -444,7 +522,12 @@
               "isStatic": false,
               "type": "boolean",
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "True if title is hidden from the dialog box."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -460,7 +543,12 @@
               "isStatic": false,
               "type": "() => void",
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Callback that is run when the dialog box is closed."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -495,7 +583,12 @@
                 }
               },
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Callback that is run when the dialog sends a message to its parent."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
@@ -544,7 +637,12 @@
               "isStatic": false,
               "type": "string",
               "deprecatedMessage": [],
-              "summary": [],
+              "summary": [
+                {
+                  "kind": "text",
+                  "text": "Defines the width of the dialog box as a percentage of the current display."
+                }
+              ],
               "remarks": [],
               "isBeta": true,
               "isSealed": false,
